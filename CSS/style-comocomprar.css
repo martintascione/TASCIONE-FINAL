@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: hsl(130deg, 21%, 95%);
+  margin: 0;
+}
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px;
+}
+.footer {
+  text-align: center;
+  color: #f4f3ee;
+  background-color: #238076;
+ font-family: "Ubuntu", sans-serif;
+}
+
+.navegacion {
+  text-align: end;
+}
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px;
+}
+
+.logo1 {
+  float: right;
+  margin-top: -10px;
+}
+
+.titulo {
+  color: #355070;
+  text-align: center;
+  font-size: 4em;
+}
+
+.navegacion a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.logo1 {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.contenedor-imagenes {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: auto auto;
+}
+
+.paso1 {
+  text-align: left;
+}
+
+.paso2 {
+  text-align: right;
+}
+
+.paso3 {
+  text-align: left;
+}
+
+.paso4 {
+  text-align: right;
+}
+
+.paso1, .paso2 {
+  width: 720px;
+  height: 720px;
+  padding: 60px;
+  border-radius: 1in;
+}
+
+.paso2, .paso3, .paso4 {
+  width: 720px;
+  height: 720px;
+  padding: 60px;
+  border-radius: 1in;
+} /*# sourceMappingURL=style-comocomprar.css.map */
+
+/*# sourceMappingURL=style-comocomprar.css.map */
+
+.pasos{
+  width: 720px;
+  height: 720px;
+  padding: 60px;
+  border-radius: 1in;
+}
+
+.pasos2{
+  margin-top: 360px;
+}
+
+.pasos4{
+  margin-top: 360px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .logo1 {
+    justify-content: center;
+  }
+
+  .navegacion a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 0px;
+    padding: 8px 4px;
+    border-radius: 40px;
+  }
+
+  .navegacion {
+    text-align: unset;
+  }
+
+  .pasos {
+    width: 450px;
+    height: 450px;
+  }
+ 
+  .titulo{
+    font-size: 50px;
+  }
+  
+.pasos2{
+  margin-top: 300px;
+}
+
+.pasos4{
+  margin-top: 300px;
+}
+
+.pasos3{
+  margin-top: 0px;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .logo1 {
+    justify-content: center;
+  }
+
+  .navegacion a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 0px;
+    padding: 8px 4px;
+    border-radius: 40px;
+  }
+
+  .navegacion {
+    text-align: unset;
+  }
+
+  .pasos {
+   border-radius:  20mm;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 310px;
+    height: 310px;
+  }
+
+    
+  .pasos2{
+    margin-top: 150px;
+  }
+
+  .pasos4{
+    margin-top: 150px;
+  }
+
+  .pasos3{
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .navegacion {
+    text-align: justify;
+    text-align: center;
+  }
+
+  .contenedor-imagenes {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .pasos {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pasos2{
+    margin-top: 5px;
+  }
+
+  .pasos4{
+    margin-top: 5px;
+  }
+
+  .pasos3{
+    margin-top: 5px;
+  }
+
+  .titulo{
+    font-size: 40px;
+  }
+}

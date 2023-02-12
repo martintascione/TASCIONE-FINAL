@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px;
+}
+
+.navegacion {
+  text-align: end;
+}
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px;
+}
+
+.logo1 {
+  float: right;
+  margin-top: -10px;
+}
+
+.nav {
+  text-align: end;
+}
+
+nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "costado arriba arriba arriba" "costado arriba arriba arriba" "costado seccion seccion seccion" "costado pie pie pie" "footer footer footer footer";
+  height: 100vh;
+}
+
+.footer {
+  background-color: #83c5be;
+  grid-area: footer;
+}
+
+.arriba {
+  background-color: #f4f3ee;
+  grid-area: arriba;
+}
+
+.logos-empresas {
+  background-color: #f4f3ee;
+  grid-area: pie;
+}
+
+.costado {
+  background-color: #f4f3ee;
+  grid-area: costado;
+}
+
+.seccion {
+  background-color: #f4f3ee;
+  grid-area: seccion;
+}
+
+
+.arriba {
+  height: auto;
+  width: 100%;
+  background-color: #f4f3ee;
+}
+
+.titulo1 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-size: 70px;
+  text-align: center;
+  color: #355070;
+}
+
+.tx2 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  font-size: 35px;
+  text-align: center;
+  color: #e76f51;
+}
+
+.tx3 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.tx4 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.logo {
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 200px;
+  padding: 15px;
+}
+
+.calculadora-container {
+  text-align: center;
+  height: 50px;
+}
+
+.calculadoraenvio {
+  -webkit-text-decoration: wheat;
+          text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 50px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left;
+}
+
+.marco {
+  margin-top: 80px;
+  text-align: center;
+  height: 100px;
+}
+
+.viajes {
+  -webkit-text-decoration: wheat;
+          text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left;
+}/*# sourceMappingURL=style-index.css.map */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+
+.banner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "costado arriba arriba arriba" "costado arriba arriba arriba" "costado seccion seccion seccion" "costado pie pie pie" "footer footer footer footer";
+  height: 100vh;
+}
+
+.footer {
+  background-color: #7dcbc4;
+  grid-area: footer;
+}
+
+.arriba {
+  background-color: #f4f3ee;
+  grid-area: arriba;
+}
+
+.logos-empresas {
+  background-color: #f4f3ee;
+  grid-area: pie;
+}
+
+.costado {
+  background-color: #f4f3ee;
+  grid-area: costado;
+}
+
+.seccion {
+  background-color: #f4f3ee;
+  grid-area: seccion;
+}
+
+
+.arriba {
+  height: auto;
+  width: 100%;
+  background-color: #f4f3ee;
+}
+
+.titulo1 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-size: 70px;
+  text-align: center;
+  color: #355070;
+}
+
+.tx2 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  font-size: 35px;
+  text-align: center;
+  color: #e76f51;
+}
+
+.tx3 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.tx4 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.logo {
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 200px;
+  padding: 15px;
+}
+
+.calculadora-container {
+  text-align: center;
+  height: 50px;
+}
+
+.calculadoraenvio {
+  -webkit-text-decoration: wheat;
+          text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 50px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left;
+}
+
+.marco {
+  margin-top: 80px;
+  text-align: center;
+  height: 100px;
+}
+
+.viajes {
+  -webkit-text-decoration: wheat;
+          text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left;
+}
+
+@media only screen and (min-width: 376px) {
+  .navegacion {
+    text-align:justify;
+  }
+  
+
+}
