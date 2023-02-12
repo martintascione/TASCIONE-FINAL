@@ -132,8 +132,11 @@ header {
   }
 
   .pasos {
-    width: 450px;
-    height: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 1in;
+    width: 400px;
+    height: 400px;
   }
  
   .titulo{
@@ -198,9 +201,17 @@ header {
 
 @media only screen and (max-width: 425px) {
 
+.logo1{
+justify-content: center;
+padding-right: 40px;
+}
+
+
+
   .navegacion {
     text-align: justify;
     text-align: center;
+    padding-right: 40px;
   }
 
   .contenedor-imagenes {
