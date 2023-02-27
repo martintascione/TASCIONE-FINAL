@@ -1,0 +1,309 @@
+@media only screen and (max-width: 1024px) {
+   
+    .contenedor{
+        .logo {
+            margin-left: 25px;
+            height: auto;
+            width: auto;
+            max-height: 45px;
+            max-width: 200px;
+            padding: 20px;
+        }
+    }
+
+    .logo1 {
+        justify-content: center;
+    }
+
+    .viajes {
+        font-family: Ubuntu, sans-serif;
+        border-radius: 12px;
+        padding: 25px 60px;
+        text-decoration: none;
+        color: rgb(2, 48, 71);
+        background-color: rgb(231, 111, 81);
+        text-align: left;
+    }
+
+    .marco {
+        margin-top: 50px;
+        margin-bottom: -20px;
+        text-align: center;
+        height: 100px;
+    }
+
+    .calculadoraenvio {
+        -webkit-text-decoration: wheat;
+        text-decoration: wheat;
+        font-family: "Ubuntu", sans-serif;
+        border-radius: 90px;
+        padding: 20px 30px;
+        text-decoration: none;
+        color: #023047;
+        background-color: #e76f51;
+        text-align: left;
+    }
+
+ 
+
+    .arriba {
+        height: auto;
+        width: 100%;
+        background-color: #f4f3ee;
+        padding-top: 18px;
+
+    }
+
+    .costadoder {
+        width: 69%;
+    }
+
+    .tx2 {
+        font-size: 30px;
+    }
+
+    .costadoiz {
+        width: 30%;
+    }
+
+    .titulo1 {
+        font-size: 50px;
+    }
+
+    .tx2 {
+        font-size: 30px;
+    }
+
+    .tx3 {
+        font-size: 40px;
+    }
+
+    .tx4 {
+        font-family: "Ubuntu", sans-serif;
+        line-height: 1;
+        text-align: center;
+        font-weight: 900;
+        color: #023047;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .pasos {
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 1in;
+        width: 400px;
+        height: 400px;
+    }
+
+    .titulo {
+        font-size: 50px;
+    }
+
+    .pasos2 {
+        margin-top: 300px;
+    }
+
+    .pasos4 {
+        margin-top: 300px;
+    }
+
+    .pasos3 {
+        margin-top: 0px;
+    }
+
+    .navegacion a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        margin: 0 0px;
+        padding: 8px 4px;
+        border-radius: 40px;
+    }
+
+    .navegacion {
+        text-align: unset;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .logo1 {
+        justify-content: center;
+    }
+
+    .navegacion a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        margin: 0 0px;
+        padding: 8px 4px;
+        border-radius: 40px;
+    }
+
+    .costadoiz {
+        width: 100%;
+    }
+
+    .titulo1 {
+        font-size: 25px;
+    }
+
+    .tx2 {
+        font-size: 25px;
+    }
+
+    .tx3 {
+        font-size: 25px;
+    }
+
+    .costadoder {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 25px;
+        margin-right: 25px;
+        height: auto;
+        width: auto;
+        max-height: 45px;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    .ul {
+        text-align: -webkit-auto;
+    }
+
+    .navegacion {
+        text-align: unset;
+    }
+
+    .pasos {
+        border-radius: 20mm;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 310px;
+        height: 310px;
+    }
+
+    .pasos2 {
+        margin-top: 150px;
+    }
+
+    .pasos4 {
+        margin-top: 150px;
+    }
+
+    .pasos3 {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logo1 {
+        justify-content: center;
+        padding-right: 40px;
+    }
+
+    .costadoder {
+        width: 100%;
+    }
+
+    .costadoiz {
+        width: 100%;
+    }
+
+    .titulo1 {
+        font-size: 25px;
+    }
+
+    .tx2 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    .tx3 {
+        font-size: 25px;
+    }
+
+    .logo {
+        margin-left: 25px;
+        height: auto;
+        width: auto;
+        max-height: 45px;
+        max-width: 200px;
+        padding-top: 20px;
+        padding-right: 45px;
+        padding-left: 45px;
+        font-size: 30px;
+    }
+
+    .navegacion {
+        text-align: justify;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .contenedor-imagenes {
+        display: flex;
+        justify-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pasos {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pasos2 {
+        margin-top: 5px;
+    }
+
+    .pasos4 {
+        margin-top: 5px;
+    }
+
+    .pasos3 {
+        margin-top: 5px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+    .formulario-registro {
+        width: 300px;
+        padding: 40px;
+        margin-top: 20px;
+        font-family: "Ubuntu", sans-serif;
+        box-shadow: 7px 13px 37px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 376px) {
+  
+    .navegacion {
+      text-align:justify;
+      text-align: center;
+    }
+    .costadoder{
+      width: 100%;
+    }
+    .costadoiz{
+      width: 100%;
+    }
+    .titulo1{
+      font-size: 25px;
+    }
+    .tx2{
+      font-size: 25px;
+    }
+    .tx3{
+      font-size: 25px;
+    }
+  
+  }

@@ -1,0 +1,854 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f0f5f0; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.titulo {
+  color: #355070;
+  text-align: center;
+  font-size: 4em; }
+
+.navegacion a:hover {
+  background-color: #ffffff;
+  color: black; }
+
+.logo1 {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.contenedor-imagenes {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-rows: auto auto; }
+
+.paso1 {
+  text-align: left; }
+
+.paso2 {
+  text-align: right; }
+
+.paso3 {
+  text-align: left; }
+
+.paso4 {
+  text-align: right; }
+
+.pasos {
+  width: 80%;
+  padding: 60px;
+  border-radius: 1in; }
+
+.paso1, .paso2 {
+  width: 720px;
+  height: 720px;
+  padding: 60px;
+  border-radius: 1in; }
+
+.paso2, .paso3, .paso4 {
+  width: 720px;
+  height: 720px;
+  padding: 60px;
+  border-radius: 1in; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.nav {
+  text-align: end; }
+
+nav a:hover {
+  background-color: white;
+  color: black; }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.banner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "costado arriba arriba arriba" "costado arriba arriba arriba" "costado seccion seccion seccion" "costado pie pie pie" "footer footer footer footer";
+  height: 100vh; }
+
+.footer {
+  background-color: #83c5be;
+  grid-area: footer; }
+
+.arriba {
+  background-color: #f4f3ee;
+  grid-area: arriba; }
+
+.logos-empresas {
+  background-color: #f4f3ee;
+  grid-area: pie; }
+
+.costado {
+  background-color: #f4f3ee;
+  grid-area: costado; }
+
+.seccion {
+  background-color: #f4f3ee;
+  grid-area: seccion; }
+
+.arriba {
+  height: auto;
+  width: 100%;
+  background-color: #f4f3ee; }
+
+.titulo1 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-size: 70px;
+  text-align: center;
+  color: #355070; }
+
+.tx2 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  font-size: 35px;
+  text-align: center;
+  color: #e76f51; }
+
+.tx3 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 40px; }
+
+.tx4 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 30px; }
+
+.logo {
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 200px;
+  padding: 15px; }
+
+.calculadora-container {
+  text-align: center;
+  height: 50px; }
+
+.calculadoraenvio {
+  -webkit-text-decoration: wheat;
+  text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 50px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left; }
+
+.marco {
+  margin-top: 80px;
+  text-align: center;
+  height: 100px; }
+
+.viajes {
+  -webkit-text-decoration: wheat;
+  text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left; }
+
+/*# sourceMappingURL=style-index.css.map */
+.banner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.3fr;
+  grid-template-areas: "costado arriba arriba arriba" "costado arriba arriba arriba" "costado seccion seccion seccion" "costado pie pie pie" "footer footer footer footer";
+  height: 100vh; }
+
+.footer {
+  background-color: #7dcbc4;
+  grid-area: footer; }
+
+.arriba {
+  background-color: #f4f3ee;
+  grid-area: arriba; }
+
+.logos-empresas {
+  background-color: #f4f3ee;
+  grid-area: pie; }
+
+.costado {
+  background-color: #f4f3ee;
+  grid-area: costado; }
+
+.seccion {
+  background-color: #f4f3ee;
+  grid-area: seccion; }
+
+.arriba {
+  height: auto;
+  width: 100%;
+  background-color: #f4f3ee; }
+
+.titulo1 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-size: 70px;
+  text-align: center;
+  color: #355070; }
+
+.tx2 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  font-size: 35px;
+  text-align: center;
+  color: #e76f51; }
+
+.tx3 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 0;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 40px; }
+
+.tx4 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  text-align: center;
+  font-weight: 900;
+  color: #023047;
+  text-transform: uppercase;
+  font-size: 30px; }
+
+.logo {
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 200px;
+  padding: 15px; }
+
+.calculadora-container {
+  text-align: center;
+  height: 50px; }
+
+.calculadoraenvio {
+  -webkit-text-decoration: wheat;
+  text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 50px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left; }
+
+.marco {
+  margin-top: 80px;
+  text-align: center;
+  height: 100px; }
+
+.viajes {
+  -webkit-text-decoration: wheat;
+  text-decoration: wheat;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 12px;
+  padding: 30px 90px;
+  text-decoration: none;
+  color: #023047;
+  background-color: #e76f51;
+  text-align: left; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f4f3ee; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.navegacion a:hover {
+  background-color: white;
+  color: black; }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.formulario-registro {
+  width: 400px;
+  background-color: #e76f51;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  box-shadow: 7px 13px 37px; }
+
+.formulario-registro {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.Control {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px; }
+
+.formulario-registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px; }
+
+.formulario-registro a {
+  color: #fff;
+  text-decoration: none; }
+
+.formulario-registro a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.formulario-registro .Boton {
+  width: 100%;
+  background-color: #3f4d6d;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 20px; }
+
+.formulario-registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f4f3ee; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.navegacion a:hover {
+  background-color: white;
+  color: black; }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.h1 {
+  color: #355070;
+  font-size: 40px;
+  text-align: center !important;
+  margin: 1cm; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f4f3ee; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.navegacion a:hover {
+  background-color: white;
+  color: black; }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.contenedor {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+.logo {
+  color: #355070;
+  text-align: center;
+  font-size: 3em; }
+
+.contenedor-formulario {
+  box-shadow: #0a7466; }
+
+.contenedor-formulario > * {
+  padding: 1em; }
+
+.formulario {
+  background: #298d83; }
+
+.formulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.formulario form label {
+  display: block; }
+
+.formulario form p {
+  margin: 0;
+  padding: 1em; }
+
+.formulario form .block {
+  grid-column: 1 / 3; }
+
+.formulario form button,
+.formulario form input,
+.formulario form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid white; }
+
+.formulario form button {
+  background: #1f5da9;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.formulario form button:hover,
+.formulario form button:focus {
+  background: #298d83;
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+.info-contacto ul li {
+  padding: .3em; }
+
+.info-contacto {
+  background: #e76f51; }
+
+.info-contacto h4,
+.info-contacto ul,
+.info-contacto p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+.info-contacto ul {
+  list-style: none;
+  padding: 0; }
+
+.info-contacto {
+  padding: 2em; }
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f4f3ee; }
+
+header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  background-color: #298d83;
+  text-align: center;
+  padding: 25px; }
+
+.navegacion {
+  text-align: end; }
+
+.navegacion a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin: 0 30px;
+  padding: 5px 15px;
+  border-radius: 40px; }
+
+.logo1 {
+  float: right;
+  margin-top: -10px; }
+
+.navegacion a:hover {
+  background-color: white;
+  color: black; }
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 300px;
+  padding: 20px; }
+
+.formulario-registro {
+  width: 400px;
+  background-color: #e76f51;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  box-shadow: 7px 13px 37px; }
+
+.formulario-registro {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.Control {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px; }
+
+.formulario-registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 40px; }
+
+.formulario-registro a {
+  color: #fff;
+  text-decoration: none; }
+
+.formulario-registro a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.formulario-registro .Boton {
+  width: 100%;
+  background-color: #3f4d6d;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  margin: 16px 0;
+  font-size: 20px; }
+
+.formulario-registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+@media only screen and (max-width: 1024px) {
+  .contenedor .logo {
+    margin-left: 25px;
+    height: auto;
+    width: auto;
+    max-height: 45px;
+    max-width: 200px;
+    padding: 20px; }
+  .logo1 {
+    justify-content: center; }
+  .viajes {
+    font-family: Ubuntu, sans-serif;
+    border-radius: 12px;
+    padding: 25px 60px;
+    text-decoration: none;
+    color: #023047;
+    background-color: #e76f51;
+    text-align: left; }
+  .marco {
+    margin-top: 50px;
+    margin-bottom: -20px;
+    text-align: center;
+    height: 100px; }
+  .calculadoraenvio {
+    -webkit-text-decoration: wheat;
+    text-decoration: wheat;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 90px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #023047;
+    background-color: #e76f51;
+    text-align: left; }
+  .arriba {
+    height: auto;
+    width: 100%;
+    background-color: #f4f3ee;
+    padding-top: 18px; }
+  .costadoder {
+    width: 69%; }
+  .tx2 {
+    font-size: 30px; }
+  .costadoiz {
+    width: 30%; }
+  .titulo1 {
+    font-size: 50px; }
+  .tx2 {
+    font-size: 30px; }
+  .tx3 {
+    font-size: 40px; }
+  .tx4 {
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1;
+    text-align: center;
+    font-weight: 900;
+    color: #023047;
+    text-transform: uppercase;
+    font-size: 30px; }
+  .pasos {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 1in;
+    width: 400px;
+    height: 400px; }
+  .titulo {
+    font-size: 50px; }
+  .pasos2 {
+    margin-top: 300px; }
+  .pasos4 {
+    margin-top: 300px; }
+  .pasos3 {
+    margin-top: 0px; }
+  .navegacion a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 0px;
+    padding: 8px 4px;
+    border-radius: 40px; }
+  .navegacion {
+    text-align: unset; } }
+
+@media only screen and (max-width: 768px) {
+  .logo1 {
+    justify-content: center; }
+  .navegacion a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0 0px;
+    padding: 8px 4px;
+    border-radius: 40px; }
+  .costadoiz {
+    width: 100%; }
+  .titulo1 {
+    font-size: 25px; }
+  .tx2 {
+    font-size: 25px; }
+  .tx3 {
+    font-size: 25px; }
+  .costadoder {
+    width: 100%; }
+  .logo {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: auto;
+    width: auto;
+    max-height: 45px;
+    max-width: 200px;
+    padding: 20px; }
+  .ul {
+    text-align: -webkit-auto; }
+  .navegacion {
+    text-align: unset; }
+  .pasos {
+    border-radius: 20mm;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 310px;
+    height: 310px; }
+  .pasos2 {
+    margin-top: 150px; }
+  .pasos4 {
+    margin-top: 150px; }
+  .pasos3 {
+    margin-top: 0px; } }
+
+@media only screen and (max-width: 425px) {
+  .logo1 {
+    justify-content: center;
+    padding-right: 40px; }
+  .costadoder {
+    width: 100%; }
+  .costadoiz {
+    width: 100%; }
+  .titulo1 {
+    font-size: 25px; }
+  .tx2 {
+    font-size: 25px;
+    padding: 15px; }
+  .tx3 {
+    font-size: 25px; }
+  .logo {
+    margin-left: 25px;
+    height: auto;
+    width: auto;
+    max-height: 45px;
+    max-width: 200px;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-size: 30px; }
+  .navegacion {
+    text-align: justify;
+    text-align: center;
+    padding-right: 40px; }
+  .contenedor-imagenes {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .pasos {
+    width: 300px;
+    height: 300px; }
+  .pasos2 {
+    margin-top: 5px; }
+  .pasos4 {
+    margin-top: 5px; }
+  .pasos3 {
+    margin-top: 5px; }
+  .titulo {
+    font-size: 40px; }
+  .formulario-registro {
+    width: 300px;
+    padding: 40px;
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+    box-shadow: 7px 13px 37px; } }
+
+@media only screen and (max-width: 376px) {
+  .navegacion {
+    text-align: justify;
+    text-align: center; }
+  .costadoder {
+    width: 100%; }
+  .costadoiz {
+    width: 100%; }
+  .titulo1 {
+    font-size: 25px; }
+  .tx2 {
+    font-size: 25px; }
+  .tx3 {
+    font-size: 25px; } }
